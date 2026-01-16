@@ -31,7 +31,6 @@ After modifying the config file or Makefile:
 make clean && make
 make run
 ```
-
 ---
 
 ## Program Overview
@@ -111,7 +110,14 @@ After updating, the program prints the modified matrix.
 
 ---
 
-## 9. Add or Subtract Two Matrices
+## 9. Display All Matrices
+
+* Displays all matrices currently stored in memory.
+* Shows matrix ID, dimensions, and formatted matrix data for each stored matrix.
+
+---
+
+## 10. Add Two Matrices
 
 * User enters IDs of two matrices (same dimensions required).
 * User selects execution mode:
@@ -123,7 +129,19 @@ After updating, the program prints the modified matrix.
 
 ---
 
-## 10. Multiply Two Matrices
+## 11. Subtract Two Matrices
+
+* User enters IDs of two matrices (same dimensions required).
+* User selects execution mode:
+
+  * Single-thread
+  * Multi-process
+  * OpenMP
+* Result is displayed, execution time is shown, and result is stored with a new ID.
+
+---
+
+## 12. Multiply Two Matrices
 
 * User enters IDs of two matrices (valid dimension check).
 * User selects execution mode.
@@ -131,7 +149,7 @@ After updating, the program prints the modified matrix.
 
 ---
 
-## 11. Find Determinant
+## 13. Find Determinant
 
 * User enters a matrix ID (must be square).
 * User selects execution mode.
@@ -139,7 +157,7 @@ After updating, the program prints the modified matrix.
 
 ---
 
-## 12. Find Eigenvalues & Eigenvectors
+## 14. Find Eigenvalues & Eigenvectors
 
 * User enters matrix ID.
 * User selects execution mode.
@@ -149,5 +167,11 @@ After updating, the program prints the modified matrix.
   * corresponding eigenvectors (as columns)
 * Displays computation times.
 * Eigenvalues and eigenvectors are stored in memory.
+
+---
+
+## 15. Exit
+
+* Exits the program and frees all allocated memory.
 
 ---
